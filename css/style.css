@@ -1,0 +1,100 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    padding: 50px 40px;
+    background: rgb(47, 110, 219);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    display: none;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box h2{
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.box .inputfield input{
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.box .inputfield input::placeholder{
+    color: rgb(151, 146, 146);
+}
+.box .inputfield{
+    position: relative;
+}
+.box .inputfield span{
+    position: absolute;
+    top: 103%;
+    left: -100px;
+    background: red;
+    color: white;
+    padding: 2px 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.box .inputfield .spanShow{
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+}
+.box button{
+    padding: 12px;
+    border: 0;
+    cursor: pointer;
+    background: #ffff;
+}
+
+.box01{
+    display: flex;
+}
+.box01 h1{
+    text-align: center;
+    font-size: 36px;
+}
+.box02{
+    background: rgb(120, 215, 42);
+}
+.box03{
+    background: rgb(220, 208, 33);
+}
+.box05{
+    align-items: center;
+    justify-content: center;
+}
+.box05 button{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: rgb(154, 209, 82);
+    cursor: pointer;
+}
