@@ -89,6 +89,7 @@ button04.addEventListener("click", function(){
                 box04.style.display = "none";
                 box05.style.display = "flex";
                 heading05.innerHTML = `${input01.value} <br> won the match & number was ${input02.value}`
+                heading05.style.textTransform ="uppercase"
             }
         }
         else{
